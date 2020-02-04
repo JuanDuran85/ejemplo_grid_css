@@ -1,9 +1,21 @@
 .container {
     display: grid;
+    /* grid-template-columns: 100px 100px 100px; */ /* medias con px*/
+    /* grid-template-columns: 30% 40% 30%; */       /* medias con %*/
+    /* grid-template-columns: 3fr 2fr 2fr 5fr;      medias con fr proporcional */
+    grid-template-columns: repeat(2,1fr);
+    /*column-gap: 10px; */                          /* separacion solo para las columnas*/
+    /*row-gap: 10px; */                             /* separacion solo para las filas*/
+    grid-gap: 10px;                                 /* es para las columnas y las filas*/
+    grid-template-rows: 2fr 3fr;
+    height: 70vh;
+    grid-auto-rows: 70px;
 }
 .box {
     background-color: deepskyblue;
     padding: 10px;
-    color: rgb(180, 72, 45);
+    color: rgb(27, 25, 24);
     text-align: center;
+    font-weight: 700;
+    border: 1px solid black;
 }
