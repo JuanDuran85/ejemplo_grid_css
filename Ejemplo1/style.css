@@ -8,9 +8,10 @@
     /*row-gap: 10px; */                             /* separacion solo para las filas*/
     grid-gap: 10px;                                 /* es para las columnas y las filas*/
     grid-template-rows: 2fr 3fr;
-    height: 70vh;
+    height: 50vh;
     grid-auto-rows: 70px;
 }
+
 .box {
     background-color: deepskyblue;
     padding: 10px;
@@ -18,4 +19,5 @@
     text-align: center;
     font-weight: 700;
     border: 1px solid black;
+    justify-content: center;
 }
